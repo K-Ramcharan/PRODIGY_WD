@@ -1,0 +1,177 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Agency FB', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-brand .name {
+    color: white;
+}
+
+.navbar-brand .glow {
+    color: red;
+    text-shadow: 0 0 5px rgba(230, 54, 54, 0.6), 0 0 10px rgba(235, 14, 14, 0.4);
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+body {
+    padding-top: 60px; 
+}
+
+.home-section {
+    padding: 170px 150px;
+    margin: 0 auto; 
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.home-content {
+    flex-grow: 1;
+    padding-right: 20px;
+}
+
+.home-content h1, .home-content h2, .home-content p {
+    text-align: left;
+    margin-left: 0; 
+    font-weight: bold;
+}
+
+.home-content h1 {
+    font-size: 36px;
+}
+
+.home-content h2 {
+    font-size: 28px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+#changing-text {
+    color: red;
+    display: inline-block;
+    border-right: 2px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 5px;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.home-section .social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px; 
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #e43c3c;
+}
+
+.profile-image {
+    flex-shrink: 0;
+    margin-left: 100px;
+}
+
+.profile-image img {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.about-section {
+    padding: 100px 100px;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.about-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.contact-section .social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+}
+
+.contact-section h2 {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: bold; 
+}
